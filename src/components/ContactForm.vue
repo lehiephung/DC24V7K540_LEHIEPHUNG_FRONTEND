@@ -127,7 +127,7 @@ export default {
 
     return {
       // Không chỉnh sửa trực tiếp props
-      contactLocal: this.contact,
+      contactLocal: {...this.contact},
       contactFormSchema,
     };
   },
